@@ -1,9 +1,12 @@
-📦 GitHub Repos App
+# 📦GitHub Repos App
 A modern Android application to display repositories of a specific GitHub user. This project demonstrates the usage of Hilt for Dependency Injection, MVVM architecture, Retrofit for API calls, LiveData & ViewModel, and Pagination with RecyclerView.
 
-✨ Features
+# ✨Features
+
 Fetches repositories of a specified GitHub user.
+
 Displays repository details such as:
+
 Repository name
 Description
 Programming language
@@ -13,7 +16,8 @@ Supports pagination for loading more repositories when scrolling.
 Swipe-to-refresh support.
 Clean architecture using MVVM + Repository Pattern.
 Handles loading, success, and error states using a sealed Resource class.
-🛠️ Tech Stack
+
+# 🛠️ Tech Stack
 Kotlin
 Hilt - Dependency Injection
 MVVM - Architecture Pattern
@@ -23,9 +27,11 @@ LiveData - For observing data in UI
 RecyclerView - For displaying lists
 SwipeRefreshLayout - For pull-to-refresh
 Navigation Component - For fragment navigation
-📱 Screenshots
-List View
-📂 Project Structure
+
+# 📱 Screenshots
+<img src="/ss/ss1.png" height="400px"/> <img src="/ss/ss2.png" height="400px"/>
+
+# 📂 Project Structure
 
 com.kishan.githubreposapp
 ├── di                  // Hilt module for providing dependencies
@@ -35,20 +41,22 @@ com.kishan.githubreposapp
 ├── ui                  // UI Layer - Activities, Fragments, Adapters
 ├── util                 // Utility classes (Pagination, Resource handling)
 ├── viewmodel            // ViewModel for data handling
-🚀 How to Run
+
+# 🚀 How to Run
 Clone the repository.
 git clone https://github.com/yourusername/GithubReposApp.git
 Open the project in Android Studio.
 Add your desired GitHub username in RepoListFragment.kt.
 
 Build and run the project.
-🔧 API Reference
+# 🔧 API Reference
 This project uses the following GitHub REST API endpoint:
 
 https://api.github.com/users/{username}/repos
 Replace {username} with the desired GitHub username.
 Supports pagination via ?page query parameter.
-🏗️ Dependencies
+
+# 🏗️ Dependencies
 Key dependencies used in the project:
 
 // Hilt
@@ -75,7 +83,7 @@ implementation "androidx.navigation:navigation-ui-ktx:2.7.6"
 implementation "androidx.recyclerview:recyclerview:1.3.2"
 implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
 
-🙌 Credits
+# 🙌 Credits
 Developed by Kishan
 You can find me on GitHub or LinkedIn
 
