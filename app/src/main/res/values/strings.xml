@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GitHub Repos App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="repository_name">Repository Name</string>
+    <string name="repository_description_goes_here">Repository description goes here</string>
+    <string name="language_kotlin">Language: Kotlin</string>
+    <string name="stars_100">Stars: 100</string>
+    <string name="forks_50">Forks: 50</string>
+    <string name="no_repositories_found">No Repositories Found</string>
+    <string name="github_repositories">GitHub Repositories</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GithubReposApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Your other theme settings -->
+    </style>
+
+
+    <style name="Theme.GitHubReposApp" parent="Base.Theme.GitHubReposApp" />
+</resources>

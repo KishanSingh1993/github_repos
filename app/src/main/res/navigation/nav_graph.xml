@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/repoListFragment">
+
+    <fragment
+        android:id="@+id/repoListFragment"
+        android:name="com.kishan.githubreposapp.ui.RepoListFragment"
+        android:label="Repositories"
+        tools:layout="@layout/fragment_repo_list" />
+
+</navigation>
