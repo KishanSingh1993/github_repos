@@ -1,9 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.GithubReposApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Your other theme settings -->
+
+    <!-- Light Theme -->
+    <style name="Theme.GithubReposApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
     </style>
 
-
-    <style name="Theme.GitHubReposApp" parent="Base.Theme.GitHubReposApp" />
 </resources>
